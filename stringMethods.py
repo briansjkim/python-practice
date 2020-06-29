@@ -35,6 +35,8 @@ print(len(my_string))
 # find() method will return the lowest index of the substring if it's found in given string. If it's not found, then it returns -1
     # it basically returns the first occurrence of the substring if it's found
 print(my_string.find('moo')) # 13
+print(my_string.find('l')) # -1
 
 # rfind() method will return the highest index of the substring if it's found in the given string. If it's not found, then it returns -1
 print(my_string.rfind('o')) # 28
+print(my_string.rfind('l')) # -1
