@@ -13,3 +13,6 @@ animal = 'bat'
 verb = 'bite'
 
 print('Does your {} {}?'.format(animal, verb))
+
+# title() method returns a string in title case meaning the first letter of each word is capitalized
+print('the man in the woods said hi'.title())
