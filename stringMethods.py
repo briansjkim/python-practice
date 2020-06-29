@@ -17,7 +17,7 @@ print('Does your {} {}?'.format(animal, verb))
 # title() method returns a string in title case meaning the first letter of each word is capitalized
 print('the man in the woods said hi'.title())
 
-# split() methods returns a container called a list that contains the words from the input string
+# split() method returns a container called a list that contains the words from the input string
 # has two additional arguments (sep and maxsplit)
     # the sep argument stands for separator which can be used to identify how the string should be split (splice, tab, return, new line, comma, etc.).
         # if the sep argument isn't provided, the default separator is whitespace
@@ -28,3 +28,10 @@ my_string = 'The cow goes moo over the moon'
 print(my_string.split(' ', 3)) # ['The', 'cow', 'goes', 'moo over the moon']
 print(my_string.split(None, 2)) # ['The', 'cow', 'goes moo over the moon']
 print(my_string.split(' ', 4)) # ['The', 'cow', 'goes', 'moo', 'over the moon']
+
+# len() method returns the length of the string variable
+print(len(my_string))
+
+# find() method will return the lowest index of the substring if its found in given string. If it's not found, then it returns -1
+    # it basically returns the first occurrence of the substring if it's found
+print(my_string.find('moo'))
