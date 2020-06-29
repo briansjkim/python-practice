@@ -21,3 +21,8 @@ print(len(days))
 # membership operators are operators which are used to check whether a value/variable exists in the sequence
 # In evaluates if the object on the left side is included in the object on the right side
 # Not in evaluates if the object on the left side is NOT included in the object on the right side
+
+print('Monday' in days) # True
+print('Monday' in weekends) # False
+print('January' not in days) # True
+print(weekends not in randoms) # True
