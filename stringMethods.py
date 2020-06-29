@@ -48,3 +48,6 @@ print(my_string.rindex('m')) #26
 
 # count() method will return the number of occurences of the substring in the given string
 print(my_string.count('m')) # 2
+
+# islower() method will check if there are no uppercase letters in the string
+print(my_string.islower()) # False
