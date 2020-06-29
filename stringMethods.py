@@ -44,4 +44,7 @@ print(my_string.rfind('l')) # -1
 # rindex() method is very similar to rfind() where it will return the highest index of the substring if it's found in the given string.
     # the difference between the two is that rindex() will NOT return -1 if the substring isn't found. Instead, it'll throw an exception
 print(my_string.rindex('m')) #26
-print(my_string.rindex('l')) # ValueError: substring not found
+# print(my_string.rindex('l')) # ValueError: substring not found
+
+# count() method will return the number of occurences of the substring in the given string
+print(my_string.count('m')) # 2
