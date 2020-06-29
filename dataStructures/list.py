@@ -6,3 +6,10 @@ randoms = ['hello', 1, 4, 5.8, False]
 print(days[0]) # Monday
 # print(days[10]) # IndexError: list index out of range
 print(randoms[3]) # 5.8
+
+# we can access a subsequence of a list using Python's slicing notation
+weekdays = days[:5] # this just means slicing from index 0 (INCLUSIVE) to index 5 (EXCLUSIVE)
+print(weekdays)
+
+weekends = days[5:] # this means slicing from index 5 (INCLUSIVE) to the end of the list
+print(weekends)
