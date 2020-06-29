@@ -32,6 +32,9 @@ print(my_string.split(' ', 4)) # ['The', 'cow', 'goes', 'moo', 'over the moon']
 # len() method returns the length of the string variable
 print(len(my_string))
 
-# find() method will return the lowest index of the substring if its found in given string. If it's not found, then it returns -1
+# find() method will return the lowest index of the substring if it's found in given string. If it's not found, then it returns -1
     # it basically returns the first occurrence of the substring if it's found
-print(my_string.find('moo'))
+print(my_string.find('moo')) # 13
+
+# rfind() method will return the highest index of the substring if it's found in the given string. If it's not found, then it returns -1
+print(my_string.rfind('o')) # 28
