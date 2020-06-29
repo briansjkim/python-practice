@@ -13,3 +13,6 @@ print(weekdays)
 
 weekends = days[5:] # this means slicing from index 5 (INCLUSIVE) to the end of the list
 print(weekends)
+
+# len() also works with lists
+print(len(days))
