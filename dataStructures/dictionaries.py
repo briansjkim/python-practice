@@ -13,3 +13,8 @@ print(numbers[1])
 numbers[6] = 5
 numbers[1] = 1
 print(numbers)
+
+# Membership Operators
+print('hydrogen' in elements) #True
+print(10 in numbers) #False
+print(9 not in elements) #True
