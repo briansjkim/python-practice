@@ -3,7 +3,7 @@
 
 nums = [1, 4, 5, 1, 5, 7, 2, 7, 10, 48, 934, 923, 832, 954, 94, 923]
 unique_nums = set(nums)
-print(unique_nums);
+print(unique_nums)
 
 fruit = {'apple', 'banana', 'orange', 'grapefruit'}
 print(fruit)
