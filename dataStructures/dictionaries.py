@@ -18,3 +18,6 @@ print(numbers)
 print('hydrogen' in elements) #True
 print(10 in numbers) #False
 print(9 not in elements) #True
+
+print(elements.get('hydrogen')) # 4
+print(numbers.get(9)) # None
