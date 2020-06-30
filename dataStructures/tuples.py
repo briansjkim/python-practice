@@ -12,3 +12,6 @@ print("longitude: ", location[1])
 dimensions = 52, 40, 100
 length, width, height = dimensions
 print('The dimensions are {} x {} x {}'.format(length, width, height))
+
+# the parentheses are optional when defining tuples
+# Tuple unpacking is used (as shown in line 13) to assign the info from a tuple into multiple variables w/o having to access them one by one and make multiple assignment statements
