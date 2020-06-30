@@ -24,7 +24,11 @@ print(fruit)
 
 x = {'apple', 'banana', 'cherry'}
 y = {'google', 'microsoft', 'apple'}
-z = x.union(y)
+z = x.union(y) # {'apple', 'banana', 'cherry', 'google', 'microsoft'}
 print(z)
 
-
+a = {'javascript', 'python', 'java'}
+b = {'node.js', 'react', 'vue.js'}
+c = {'java', 'ruby', 'typescript'}
+d = a.union(b, c) # {'javascript', 'python', 'java', 'node.js', 'react', 'vue.js', 'ruby', 'typescript'}
+print(d)
