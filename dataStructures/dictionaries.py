@@ -21,3 +21,11 @@ print(9 not in elements) #True
 
 print(elements.get('hydrogen')) # 4
 print(numbers.get(9)) # None
+
+# Identity Operators
+# is keyword evaluates if both sides have the same identity
+# is not keyword evaluates if both sides have different identities
+
+n = elements.get('elements')
+print(n is None)
+print(n is not None)
