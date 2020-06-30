@@ -32,3 +32,10 @@ b = {'node.js', 'react', 'vue.js'}
 c = {'java', 'ruby', 'typescript'}
 d = a.union(b, c) # {'javascript', 'python', 'java', 'node.js', 'react', 'vue.js', 'ruby', 'typescript'}
 print(d)
+
+# intersection() method returns a set that contains the similarity between two or more sets
+
+e = {'apple', 'banana', 'cherry'}
+f = {'google', 'microsoft', 'apple'}
+g = e.intersection(f) #{'apple'}
+print(g)
