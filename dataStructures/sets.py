@@ -14,6 +14,7 @@ print('apple' in fruit)
 fruit.add('watermelon')
 
 # You remove elements using the pop method
+    # when you pop an element from a set, a random element is removed because sets are UNORDERED so there is no "last element"
 fruit.pop()
 
 print(fruit)
