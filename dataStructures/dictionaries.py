@@ -6,3 +6,10 @@ print(elements['helium'])
 elements['lithium'] = 3
 elements['hydrogen'] = 4
 print(elements)
+
+# Dictionaries can have keys of any immutable type, not just strings
+numbers = {1: 0, 2: 1, 3: 2, 4:3, 5: 4}
+print(numbers[1])
+numbers[6] = 5
+numbers[1] = 1
+print(numbers)
