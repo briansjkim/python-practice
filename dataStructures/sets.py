@@ -39,3 +39,14 @@ e = {'apple', 'banana', 'cherry'}
 f = {'google', 'microsoft', 'apple'}
 g = e.intersection(f) #{'apple'}
 print(g)
+
+# difference() method returns a set that contains the difference between two sets
+    # The returned set contains items that exist ONLY in the first set, and not in both sets
+h = {10, 20, 30, 40, 80}
+i = { 100, 30, 80, 40, 60}
+j = h.difference(i)
+print(j) # {10, 20}
+k = i.difference(h)
+print(k) #{100, 60}
+
+
