@@ -21,6 +21,7 @@ print(9 not in elements) #True
 
 print(elements.get('hydrogen')) # 4
 print(numbers.get(9)) # None
+print(numbers.get(9, 'No available element here'))
 
 # Identity Operators
 # is keyword evaluates if both sides have the same identity
