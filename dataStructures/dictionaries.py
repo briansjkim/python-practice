@@ -30,3 +30,7 @@ print(numbers.get(9, 'No available element here'))
 n = elements.get('elements')
 print(n is None)
 print(n is not None)
+
+# You can retrieve a list of your dictionary's keys using dict.keys()
+nums_list = numbers.keys()
+print(nums_list)
