@@ -24,3 +24,6 @@ verse_dict = {'if': 3, 'you': 6, 'can': 3, 'keep': 1, 'your': 1, 'head': 1, 'whe
 # 3. What is the first element in the list created when verse_dict is sorted by keys?
     # Use the appropriate dictionary method to get a list of its keys, and then sort that list
 # 4. Which key (word) has the highest value in verse_dict?
+
+# find the unique words in verse_dict
+unique_words = len(verse_dict)
