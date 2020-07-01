@@ -8,3 +8,7 @@ aList = [100, 200, 300, 400, 500]
 # this is a slicing technique used to produce a reversed copy
 newList = aList[::-1]
 print(newList)
+
+# Using the reverse() built-in method 
+aList.reverse()
+print(aList)
