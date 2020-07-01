@@ -30,3 +30,11 @@ unique_words = len(verse_dict)
 
 # check whether 'breathe' is in verse_dict
 contains_breathe = 'breathe' in verse_dict
+
+# What is the first element in the list created when verse_dict is sorted by keys?
+
+# first get all of the keys from the dict and then sort them
+sorted_keys = sorted(verse_dict.keys())
+
+first_el = sorted_keys[0]
+
