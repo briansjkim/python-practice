@@ -31,3 +31,14 @@ for idx in range(len(cities)):
     cities[idx] = cities[idx].title()
 
 print(cities)
+
+# Extra practice
+sentence = ['the', 'quick', 'brown', 'fox', 'jumped', 'over', 'the', 'lazy', 'dog']
+
+for word in sentence:
+    print(word)
+
+# Multiples of 5
+# print out every whole number that is a multiple of 5 and less than or equal to 30 
+for i in range(5, 35, 5):
+    print(i)
