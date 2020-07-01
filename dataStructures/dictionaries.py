@@ -34,3 +34,7 @@ print(n is not None)
 # You can retrieve a list of your dictionary's keys using dict.keys()
 nums_list = numbers.keys()
 print(nums_list)
+
+# You can retrieve a list of your dictionary's values using dict.values()
+values_list = numbers.values()
+print(values_list)
