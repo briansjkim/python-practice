@@ -42,3 +42,20 @@ for word in sentence:
 # print out every whole number that is a multiple of 5 and less than or equal to 30 
 for i in range(5, 35, 5):
     print(i)
+
+# Write a for loop that iterates over the names list to create a usernames list
+# To create a username for each name, make everything lowercase and replace spaces with underscores
+
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+usernames = []
+
+for name in names:
+    usernames.append(name.lower().replace(' ', '_'))
+
+print(usernames)
+
+# To modify the list in place using range() function
+for i in range(len(usernames)):
+    usernames[i] = usernames[i].lower().replace(' ', '_')
+
+print(usernames)
