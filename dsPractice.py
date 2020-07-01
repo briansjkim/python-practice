@@ -6,3 +6,6 @@ verse = "if you can keep your head when all about you are losing theirs and blam
 # 2. Convert the list into a data structure that would keep only the unique elements from the list
 # 3. Print the length of the container
 
+# split verse into a list of words
+verse_list = verse.split(' ')
+
