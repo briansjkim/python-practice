@@ -9,3 +9,5 @@ verse = "if you can keep your head when all about you are losing theirs and blam
 # split verse into a list of words
 verse_list = verse.split(' ')
 
+# convert list to a data structure that stores unique elements
+verse_set = set(verse_list)
