@@ -18,3 +18,16 @@ for i in range(2, 6):
 # using three arguments => start, stop, and step
 for i in range(1, 10, 2):
     print(i) # 1, 3, 5, 7, 9
+
+# creating and modifying lists
+capitalized_cities = []
+for city in cities:
+    capitalized_cities.append(city.title())
+
+print(capitalized_cities)
+
+# modifying a list is a bit more involved and requires the use of the range() function
+for idx in range(len(cities)):
+    cities[idx] = cities[idx].title()
+
+print(cities)
