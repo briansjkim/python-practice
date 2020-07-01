@@ -11,3 +11,7 @@ verse_list = verse.split(' ')
 
 # convert list to a data structure that stores unique elements
 verse_set = set(verse_list)
+
+# print the number of unique words
+# Subtract one from the length because an empty space will be inside the set
+num_unique = len(verse_set) - 1
