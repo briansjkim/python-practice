@@ -38,3 +38,6 @@ sorted_keys = sorted(verse_dict.keys())
 
 first_el = sorted_keys[0]
 
+# retrieve the key with the highest value in verse_dict
+highest_el = sorted_keys[-1]
+# or you could retrieve it by doing: highest_el = sorted_keys[len(sorted_keys) - 1]
