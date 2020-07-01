@@ -27,3 +27,6 @@ verse_dict = {'if': 3, 'you': 6, 'can': 3, 'keep': 1, 'your': 1, 'head': 1, 'whe
 
 # find the unique words in verse_dict
 unique_words = len(verse_dict)
+
+# check whether 'breathe' is in verse_dict
+contains_breathe = 'breathe' in verse_dict
