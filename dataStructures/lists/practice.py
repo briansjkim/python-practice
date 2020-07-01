@@ -12,3 +12,5 @@ print(newList)
 # Using the reverse() built-in method 
 aList.reverse()
 print(aList)
+
+# Concatenate two lists index-wise
