@@ -14,3 +14,7 @@ for key in cast:
 # To access both the keys and values, you use the built-in method items()
 for key, val in cast.items():
     print('This actor {} played in {}'.format(key, val))
+
+# Task 1
+# Count the number of fruits in your basket. Given a dictionary and list of fruits. If the key is in the list of fruits, add the value (number of fruits) to result
+
