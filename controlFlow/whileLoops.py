@@ -11,3 +11,13 @@ print(hand)
 # Factorials with While Loops
 # A factorial of a whole number is that number multiplied by every whole number between itself and 1
 # For ex, 6 factorial (written 6!) equals 6 x 5 x 4 x 3 x 2 x 1 - 720
+
+number = 6
+
+product = 1
+
+while number >= 1:
+    product *= number
+    number -= 1
+
+print(product)
