@@ -10,3 +10,7 @@ cast = {
 
 for key in cast:
     print(key)
+
+# To access both the keys and values, you use the built-in method items()
+for key, val in cast.items():
+    print('This actor {} played in {}'.format(key, val))
